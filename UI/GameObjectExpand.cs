@@ -18,6 +18,12 @@ namespace GameWorldFramework.RunTime
 {
     public static class GameObjectExpand 
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="gameObject"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public static GameObject SetActiveOptimize(this GameObject gameObject, bool value)
         {
             if (gameObject.activeSelf != value)
